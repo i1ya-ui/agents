@@ -1,0 +1,29 @@
+## gstack skills
+
+This project has gstack skills installed at `.agents/skills/`.
+When the user mentions a slash-command, read the corresponding SKILL.md and follow it.
+
+Available slash-commands:
+- /office-hours — brainstorm and validate ideas (startup or builder mode)
+- /plan-ceo-review — CEO/founder strategy review of a plan
+- /plan-eng-review — engineering architecture review of a plan
+- /plan-design-review — designer's eye review of a plan
+- /autoplan — run all three reviews automatically
+- /design-consultation — create a design system from scratch
+- /review — pre-landing PR code review
+- /ship — create PR with version bump and changelog
+- /investigate — systematic root-cause debugging
+- /qa — QA test a web app and fix bugs
+- /qa-only — QA report without fixes
+- /design-review — visual QA audit with fixes
+- /codex — second opinion via OpenAI Codex CLI
+- /cso — security audit (OWASP Top 10, STRIDE)
+- /retro — weekly engineering retrospective
+- /document-release — update docs after shipping
+- /browse — headless browser for testing
+- /benchmark — performance regression detection
+- /canary — post-deploy monitoring
+- /careful — safety guardrails for destructive commands
+- /freeze — restrict edits to a directory
+- /unfreeze — remove freeze restriction
+- /guard — combine /careful + /freeze
