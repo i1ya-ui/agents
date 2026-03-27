@@ -89,3 +89,14 @@
 - **TypeScript** — реализация навыка `browse` (headless-браузер)
 - **Shell** — вспомогательные скрипты (`careful`, `freeze`, сборка `browse`)
 - **Bun** — среда для генерации документации навыков (`bun run gen:skill-docs`)
+
+## 📚 Адаптация
+
+Данный репозиторий является адаптацией [gstack](https://github.com/garrytan/gstack)
+для использования в Cursor Editor. Все оригинальные скиллы принадлежат
+[garrytan](https://github.com/garrytan).
+
+## Лицензия
+
+Оригинальный проект `gstack` распространяется под лицензией MIT.
+Текст лицензии: [LICENSE](https://github.com/garrytan/gstack/blob/main/LICENSE).
